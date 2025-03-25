@@ -10,7 +10,7 @@ namespace L01P02_2022MQ650.Models
 
         [Display(Name = "Materia")]
         [Required(ErrorMessage = "El nombre de la materia es obligatorio")]
-        [StringLength(100, ErrorMessage = "La materia no puede superar los {100} caracteres")]
+        [StringLength(100, ErrorMessage = "La materia no puede superar los {1} caracteres")]
         public string? materia { get; set; }
 
         [Display(Name = "Unidades Valorativas")]
